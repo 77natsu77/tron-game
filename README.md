@@ -1,10 +1,10 @@
-# 🏍️ Tron Light Cycle Game
+# Tron Light Cycle Game
 
 > A real-time, two-player Tron light cycle game built in Python with Pygame — featuring collision detection, persistent trail rendering, score tracking, and a documented debugging journey from broken to fully working.
 
 ---
 
-## 📋 Table of Contents
+## Table of Contents
 
 - [Analysis & STEM Significance](#-analysis--stem-significance)
 - [Technical Depth](#-technical-depth)
@@ -15,7 +15,7 @@
 
 ---
 
-## 🔬 Analysis & STEM Significance
+## Analysis & STEM Significance
 
 This project is a faithful Python implementation of the classic **Tron light cycle** arcade game. Two players navigate bikes across a grid; each bike leaves a permanent light trail behind it, and the first player to collide with a wall, their own trail, or the opponent's trail loses the round.
 
@@ -29,7 +29,7 @@ From an **A-Level Computer Science** perspective, this project demonstrates:
 
 ---
 
-## ⚙️ Technical Depth
+## Technical Depth
 
 ### Coordinate System & Vector Motion
 
@@ -88,7 +88,7 @@ The repo includes `buggy code(fixed).py`, which preserves the original broken ve
 
 ---
 
-## 🛠️ Installation & Usage
+## Installation & Usage
 
 ### Prerequisites
 
@@ -98,7 +98,7 @@ The repo includes `buggy code(fixed).py`, which preserves the original broken ve
 ### With Poetry (recommended)
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/tron-game.git
+git clone https://github.com/77natsu77/tron-game.git
 cd tron-game
 poetry install
 poetry run python main.py
@@ -115,7 +115,7 @@ python main.py
 
 ---
 
-## 🎮 Controls
+## Controls
 
 | Action | Player 1 (Cyan) | Player 2 (Magenta) |
 |---|---|---|
@@ -128,7 +128,7 @@ Crash into a wall, your own trail, or your opponent's trail and you lose the rou
 
 ---
 
-## 🎓 Learning Outcomes
+## Learning Outcomes
 
 Building this project developed hands-on mastery of:
 
@@ -141,7 +141,7 @@ Building this project developed hands-on mastery of:
 
 ---
 
-## 🐛 The Bug That Taught Me The Most
+## The Bug That Taught Me The Most
 
 The single most educational moment in this project was the indentation bug. In Python, whitespace is syntax. Moving the score/reset block from outside to inside the debounce `if` block changed the program's behaviour from "resets 60 times per second on collision" to "resets exactly once per collision." 
 
@@ -149,7 +149,7 @@ This is a subtle but critical distinction that highlights a key A-Level concept:
 
 ---
 
-## 📎 Repository Structure
+## Repository Structure
 
 ```
 tron-game/

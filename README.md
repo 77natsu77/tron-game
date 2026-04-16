@@ -107,7 +107,7 @@ poetry run python main.py
 ### With pip
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/tron-game.git
+git clone https://github.com/77natsu77/tron-game.git
 cd tron-game
 pip install pygame==2.5.2
 python main.py
